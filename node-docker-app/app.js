@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8080;
 //Application
 const app = express();
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello');
 });
 
 app.listen(PORT, () => {
