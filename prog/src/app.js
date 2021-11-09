@@ -6,19 +6,6 @@ const PORT = process.env.PORT || 4000;
 
 const jwt = require('jsonwebtoken');
 
-const posts = [
-    {
-        username: 'admin',
-        title: 'post 1',
-        description: 'description 1'
-    },
-    {
-        username: 'login',
-        title: 'login 1',
-        description: 'description 2'
-    }
-]
-
 app.get('/posts', authenticateToken, (req, res) => {
     res.json(posts.filter(post => post.username === req.user.name));
 })
@@ -36,7 +23,6 @@ app.post('/token', (req, res) => {
         res.json({ acessToken: acessToken })
     })
 })
-
 
 app.post('/login', (req, res) => {
     // Authenticate User
@@ -64,7 +50,7 @@ function authenticateToken(req, res, next) {
 }
 
 function generateAuthToken(user) { 
-    return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {expiresIn: '30s'})
+    return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {expiresIn: '60s'})
 }
 
 app.listen(PORT, () => {
