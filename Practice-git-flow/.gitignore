@@ -1,6 +1,7 @@
+.gitignore
+
 # dependencies
 node_modules
 
 # config
 config.json
-
