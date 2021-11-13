@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "sequelize": "^6.9.0",
+    "sequelize-cli": "^6.3.0"
+  },
+  "name": "practice-git-flow",
+  "version": "1.0.0",
+  "description": "git-flow 연습",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app"
+  }
+}
