@@ -1,8 +1,8 @@
 # AWS Certification-Courses
 
->AWS 자격증 과정 개념 공부
+> AWS 자격증 과정 개념 공부
 
-> AWS 자격증 과정 문제 풀이
+> 자격증 과정 문제 풀이
 
 >https://www.examtopics.com/exams/amazon/aws-certified-cloud-practitioner/ 
 
@@ -21,6 +21,9 @@ __글 쓰기__
 | 📕     | 제목을 작성할 때 사용합니다.        |
 | 📒     | 주제를 작성할 때 사용합니다.        |
 | 📃     | 소 주제를 작성할 때 사용합니다.     |
+| 🏸     | 질문을 작성할 때 사용합니다.        |
+| 🎓     | 답변을 작성할 때 사용합니다.        |
+| 🔗     | 참고사항을 작성할 때 사용합니다.    |
 
 
 
